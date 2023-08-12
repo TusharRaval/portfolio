@@ -1,0 +1,432 @@
+body{
+    font-family: 'Dosis';
+    text-align: center;
+    
+  /*  background-image: url("images/bg.jpg");*/
+}
+.fas{
+  margin-left: 5rem;
+}
+.download-button {    /* for button in home menu*/
+  margin-top: 3rem;
+  margin-left: 0rem;
+}
+#skills{font-family: 'Roboto';}
+
+.big-heading {
+    font-family: "dosis"; /* my name in this site*/
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+    padding: 1rem 0rem 0rem 12.5%;
+    margin-right: 3rem;
+    color:#19A7CE;
+    text-align:left;
+      
+  
+  }
+  .hey{
+    font-family: "dosis"; /* my name in this site*/
+    font-size: 1rem;
+    line-height: 1.5;
+    
+    padding: 1rem 0rem 0rem 12.5%;
+    margin-right: 3rem;
+    color:#19A7CE;
+    text-align:left;
+    
+  }
+  
+  .card1{
+    box-sizing: border-box; /* last page of this */    
+  }
+
+  .press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+
+  .me{
+    padding-bottom: 5rem; /* text both in about me section*/
+    font-weight: bold;
+  }
+  .em{
+    padding-top: 5rem;
+    font-weight: bold;
+  }
+
+  .section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    
+  }
+  .container-fluid{   /*all container fluid in this web site */
+    padding: 7% 15%;
+  }
+ 
+ 
+  
+
+ /* #title {
+/*    background-color: mediumslateblue; /* id title given to home page*/
+ /*  background-image:url(https://getwallpapers.com/wallpaper/full/8/d/8/15235.jpg);
+    opacity: 90%;
+    
+    color:white;
+    text-align: left;
+    padding-bottom: 10rem;
+
+  } */
+
+  #title .container-fluid { /* when collapse this als0 shrink the page*/
+    padding: 3% 15% 7%;
+    
+  }
+  #skills .container-fluid{
+    padding: 3% 15% 7% ;
+  }
+  
+
+  /* Title Image */
+
+ .title-image{
+    border-radius: 8px; /*coding image in font page*/ 
+    width: 100%;
+    bottom: 20%;
+    right: 10%;
+    position:relative;
+    
+    
+
+  
+  } 
+  
+ 
+  /* navigation bar*/
+  
+ 
+.navbar{
+    padding: 0 0 14rem; /*make navabar big vertically*/
+   /* padding-left: 20rem;  /* it will make logo a right side space*/
+   background-color:#0C090A;
+   padding-bottom: 1rem;
+   
+  
+  
+   
+   
+    
+    
+ 
+}
+
+.navbar-brand {
+  font-family: "neon"; /* it makes name of button big  in this context Portfolio*/
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-right:25%; /*  it give right space in navicon and all nav content like home and aboutme  */
+  margin-left: 3%;
+  
+}
+
+.nav-item {
+    padding: 0 25px;    /*give space in beetween nave item like  home   project etc */ 
+    font-weight: bolder;
+    
+     
+
+    
+}
+
+.nav-link {
+    font-size: 1.2rem;  /* it makes nave item font size big and set font family*/
+    font-family: "Dosis";
+
+   
+    
+  }
+  /* About section*/
+
+  #About {
+    position:relative;
+    color: #0C0404;
+    width: 100%;
+    font-family: 'Roboto';
+    font-weight: 300;    
+  }
+  
+  .About-title {    /* font size to features title*/
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+  
+  .About-box {
+    padding: 3% 2%; 
+    margin: 2rem;
+     
+  }
+
+  /* skill page */
+  
+  .skill h2 span{
+    font-weight:bold;
+  }
+  #skills span{
+    font-weight:bold;
+  }
+  #skills p{
+    font-weight:bold;
+  }
+
+  .skill .row{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+  }
+  .skill .h1
+  {
+    font-weight: 600;
+  }
+#p{
+  font-size: large;
+}
+
+.this{
+  text-align: justify;
+}
+ 
+
+  .skill{
+    padding: 5rem 0 2.5rem 0;
+    color:#19A7CE;
+  }
+  .skill > .text{
+    width: 70%;
+    margin: 1.5rem auto;
+    text-align: center;
+  }
+  .skill.item{
+    padding: 0.5rem 0;
+    margin: 0.3rem 0;
+  }
+  .skill .item-text{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 600;
+    font-size: 0.9rem;
+    position:relative;
+  }
+  .skill .item-text span:last-child{
+    position: absolute;
+  }
+  .skill .item-text .w-90{
+    margin-left: 85%;
+  }
+  .skill .item-text .w-80{
+    margin-left: 75%;
+  }
+  .skill .item-text .w-90{
+    margin-left: 85%;
+  }
+  .skill .item-text .w-80{
+    margin-left: 75%;
+  }
+  .skill .item-text .w-75{
+    margin-left: 70%;
+  }
+  .progress{
+    margin: 0.8rem 0;
+    border-radius:  10px;
+    height: 16px;
+    width: 100%;
+    background-color:whitesmoke;
+    overflow: hidden;
+  }
+  .progress-bar{
+    background-color:greenyellow;
+    height: 100%;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+  }
+  .progress-bar.w-90{
+    width: 90%;
+  }
+  .progress-bar.w-80{
+    width: 80%;
+  }
+  .progress-bar.w-90{
+    width: 90%;
+  }
+  .progress-bar.w-80{
+    width: 80%;
+  }
+  .progress-bar.w-75{
+    width: 75%;
+  }
+  
+  
+ 
+  .card{
+    padding: 3% 2%; 
+    margin: 2rem;   /*last square box with img for projects*/
+  }
+ 
+ 
+  .icon {
+    color:  mediumslateblue;  /* icon and text space in beetwen*/
+    margin-bottom: 1rem;
+    
+    
+  }
+  .icon:hover {     /*when curser move there it will hover and change color*/
+    color: mediumslateblue;
+    
+  }
+  .card{
+    height: 250px;
+    width: 250px;
+    font-weight: bold;
+    
+  }
+
+
+
+
+  @media ( max-width:991px){
+    #skills .container-fluid{
+      padding: 3% 15% 7% ;
+    }
+
+  }
+
+ 
+
+  @media (max-width: 991px) {
+
+    #title {
+      text-align: center;
+    }
+    .big-heading{
+      text-align:center;
+    }
+    .hey{
+      text-align:center;
+    }
+  
+  
+    .title-image {
+      position:static;
+      
+    }
+  }
+
+
+  @media (max-width: 1028px) {
+    #features .container-fluid{
+      padding: 3% 15% 7% ;
+      }
+  }
+  #project .container-fluid {
+    
+    padding: 7% 15%;
+  }
+
+  #project h1{
+    font-weight:bold;
+  }
+  
+ 
+  .but{             /* contact me button*/
+    margin-top: 5rem;
+    
+  }
+  .a{
+    margin-bottom: 5rem; 
+    padiing-bottom:10rem;
+  }
+
+  /*
+  .colored-section{
+   background-color:aliceblue;
+   color: #0C0404;
+   padding-right: 20rem;
+  
+  }*/
+  .white-section{
+    background-color: aliceblue;
+  }
+
+  body {
+    background:#0C0404;
+    height:100%;
+    color: aliceblue;
+  }
+
+  
+.press-logo{
+  padding-top: 5rem;
+}
+
+
+.colored-section h1{
+  color:#19A7CE;
+  font-size:1.5rem;
+
+}
+#project{
+  background-color: aliceblue;
+  color:#19A7CE;
+  
+  
+
+}
+
+#contact {
+  font-weight:bold;
+}
+#contact h2{
+  font-weight:bold;
+}
+
+#contact{
+  background-color: #0C0404;
+  color:#19A7CE;
+}
+.colored-section .btn{
+  margin-bottom: 3rem;
+  margin-left:2rem;
+}
+.btn{           /*buttons padiing in project section*/
+  margin-bottom: 3rem;
+  
+  
+}
+
+.a{
+  font-weight: 600;
+}
+.me{font-family: 'Montserrat';}
+.this{font-family: 'Montserrat';
+font-size:1.5rem;
+line-height:2rem;
+color:#19A7CE;
+font-weight:bold;
+
+text-align:justify;
+hyphens:auto;
+
+}
+#footer{
+  background-color:aliceblue;
+  color:black;
+  
+}
+.social-icon{
+  margin:1rem;
+}
+
+ 
+ 
+  
+ 
+
